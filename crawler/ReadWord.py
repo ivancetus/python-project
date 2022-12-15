@@ -3,7 +3,7 @@ import re
 
 import docx
 
-path = 'E:\server\wordpress\portfolio\MSword\\test2.docx'
+path = 'test2.docx'
 
 file=docx.Document(path)
 # for i in file.paragraphs:
