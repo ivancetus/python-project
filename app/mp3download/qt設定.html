@@ -1,0 +1,16 @@
+<!--
+1. 儲存 qtdesigner的檔案
+    將設計好的視窗 file / save as / 專案目錄 / ui / ui_mainwindow.ui
+2. pip install pyqt5
+3. 使用 PyCharm 將 qtdesigner 的 xml(.ui) 檔轉成 .py檔, pyuic5.exe 在 pyqt5 安裝時會加進來
+    file / settings / tools / external tools / +
+    Name: pyUic/App
+    Program: 專案下 / venv / scripts / pyuic5.exe
+    Arguments: $FileName$ -o $FileNameWithoutExtension$.py
+    Working Directory: $ProjectFileDir$\ui
+    參照: http://mahaljsp.asuscomm.com/index.php/2020/06/29/pycharm_qtdesigner/
+
+    或
+    python -m PyQt5.uic.pyuic -o d:\python\first.py d:\python\first.ui
+4. 點選 ui / ui_mainwindow.ui 右鍵 / external tools / pyUic/App
+-->
