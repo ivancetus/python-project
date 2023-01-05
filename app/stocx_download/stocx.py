@@ -4,13 +4,13 @@ import sys
 import ctypes
 import platform
 
-from img_handling.pic_string import *
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import QEvent
 from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox, QCheckBox, QListWidgetItem, QFileDialog
 from BrowserThread import BrowserThread
 from DownloadThread import DownloadThread
 from SearchThread import SearchThread
+from img_handling.pic_string import favicon_ico
 from ui.ui_mainwindow import Ui_MainWindow
 
 
