@@ -1,0 +1,9 @@
+download: bash ./scripts/get_coco.sh
+
+train: ./training_data/fruits/train.txt
+val: ./training_data/fruits/val.txt
+test: ./training_data/fruits/test.txt
+
+nc: 4
+
+names: ['guava', 'lemon', 'pitaya', 'wax']
